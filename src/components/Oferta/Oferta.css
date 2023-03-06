@@ -1,0 +1,54 @@
+.Oferta {
+  gap: 2rem;
+}
+
+.oferta-header {
+  position: relative;
+  text-align: center;
+  padding-top: 15px;
+  gap: 3rem;
+  font-weight: bold;
+  font-size: 3rem;
+  justify-content: center;
+  color: white;
+  text-transform: uppercase;
+  font-style: italic;
+  background-color: var(--blue);
+  height: 200px;
+}
+.categorias-header {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  font-size: 1.5rem;
+  font-weight: normal;
+  text-align: center;
+}
+.categorias {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  font-size: 0.9rem;
+  font-weight: normal;
+  text-align: center;
+}
+.categoria-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  font-weight: normal;
+  font-size: 1rem;
+}
+.categoria-buttons > :nth-child(1) {
+  color: white;
+  background-color: var(--orange);
+  width: 8rem;
+}
+
+@media screen and (max-width: 768px) {
+  .Oferta {
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+  }
+}
