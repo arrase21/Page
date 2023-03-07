@@ -1,6 +1,6 @@
 import React from "react";
 import "./Footer.css";
-import Logo from "../../assets/logo.png";
+import Logo from "../../assets/log.png";
 
 const Footer = () => {
   return (
@@ -17,7 +17,7 @@ const Footer = () => {
           </div>
           <div className="contact-f">
             <span className="stroke-text">Cel</span>
-            <span>573203784256</span>
+            <span>+57 3203784256</span>
           </div>
         </div>
       </div>

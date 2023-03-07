@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import Logo from "../../assets/logo.png";
+// import Logo from "../../assets/logo.png";
+import Logo from "../../assets/log.png";
 import Bars from "../../assets/bars.png";
 import "./Header.css";
 import { Link } from "react-scroll";
@@ -30,22 +31,22 @@ function Header() {
         <ul className="header-menu">
           <li>
             <Link onClick={() => setMenuOpened(false)} to="home" spy={true}>
-              Home
+              Inicio
             </Link>
           </li>
           <li>
             <Link onClick={() => setMenuOpened(false)} to="programs" spy={true}>
-              Programs
+              Programas
             </Link>
           </li>
           <li>
             <Link onClick={() => setMenuOpened(false)} to="reasons" spy={true}>
-              WhyUS
+              PorQue?
             </Link>
           </li>
           <li>
             <Link onClick={() => setMenuOpened(false)} to="plans" spy={true}>
-              Plans
+              Planes
             </Link>
           </li>
           <li>
@@ -54,7 +55,7 @@ function Header() {
               to="Testimonials"
               spy={true}
             >
-              Testimonials
+              Testimonios
             </Link>
           </li>
           <li>

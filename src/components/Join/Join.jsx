@@ -1,29 +1,7 @@
 import React, { useRef } from "react";
 import "./Join.css";
-import emailjs from "@emailjs/browser";
 
 const Join = () => {
-  const sendEmail = (e) => {
-    e.preventDefault();
-
-    emailjs
-      .sendForm(
-        "service_ceaw6ax",
-        "template_6y1ip3n",
-        form.current,
-        "mNV35-Y9obwypPPjh"
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
-  };
-
-  const form = useRef();
   return (
     <div className="Join" id="join-us">
       <div className="left-j">
@@ -45,8 +23,11 @@ const Join = () => {
       </div>
       <div className="right-j">
         <div>
-          <a href="https://google.com" style={{ textDecoration: "none" }}>
-            <button className="btn btn-j">Join Now</button>
+          <a
+            href="https://wa.me/573143722158?text=Hola%20Me%20puedes%20dar%20mas%20info%20de%20los%descuentos%20"
+            style={{ textDecoration: "none" }}
+          >
+            <button className="btn btn-j">Ahora</button>
           </a>
         </div>
       </div>
