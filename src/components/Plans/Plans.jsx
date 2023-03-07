@@ -30,12 +30,14 @@ function Plans() {
                 </div>
               ))}
             </div>
-            <div>
-              <span>See more</span>
-            </div>
-            <button type="" className="btn">
-              Saber mas
-            </button>
+            <a
+              href="https://wa.me/573143722158?text=Hola%20Me%20puedes%20dar%20mas%20info%20del%20plan...."
+              style={{ textDecoration: "none" }}
+            >
+              <button type="" className="btn">
+                Saber mas
+              </button>
+            </a>
           </div>
         ))}
       </div>
