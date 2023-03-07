@@ -24,7 +24,7 @@ const Join = () => {
       <div className="right-j">
         <div>
           <a
-            href="https://wa.me/573143722158?text=Hola%20Me%20puedes%20dar%20mas%20info%20de%20los%descuentos%20"
+            href="https://wa.me/573143722158?text=Hola%20Me%20puedes%20dar%20mas%20info%20de%20los%20descuentos%20"
             style={{ textDecoration: "none" }}
           >
             <button className="btn btn-j">Ahora</button>

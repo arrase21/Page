@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-// import Logo from "../../assets/logo.png";
 import Logo from "../../assets/log.png";
 import Bars from "../../assets/bars.png";
 import "./Header.css";
