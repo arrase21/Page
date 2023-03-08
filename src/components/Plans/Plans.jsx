@@ -30,8 +30,9 @@ function Plans() {
                 </div>
               ))}
             </div>
+
             <a
-              href="https://wa.me/573143722158?text=Hola%20Me%20puedes%20dar%20mas%20info%20del%20plan...."
+              href="https://wa.me/573143722158?text=Hola%20Me%20puedes%20dar%20mas%20info%20del%20plan.."
               style={{ textDecoration: "none" }}
             >
               <button type="" className="btn">

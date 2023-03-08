@@ -3,9 +3,6 @@ import "./Contact.css";
 import emailjs from "@emailjs/browser";
 
 const Contact = () => {
-  function refreshPage() {
-    window.location.reload(false);
-  }
   const sendEmail = (e) => {
     e.preventDefault();
 
@@ -40,12 +37,7 @@ const Contact = () => {
             required
           />
           <textarea placeholder="Escribe Aqui..." name="message"></textarea>
-          <input
-            className="btn-c"
-            type="submit"
-            value="Send"
-            onClick={refreshPage}
-          />
+          <input className="btn-c" type="submit" value="Send" />
         </form>
       </div>
     </div>
